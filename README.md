@@ -36,7 +36,7 @@ export class DialogService {
 }
 ```
 ## Sharing data with the Dialog component.
-1) If you want to share data with your dialog, you can use the data option to pass information to the dialog component.
+1) If you want to share data with your dialog, you can use the `data` option to pass information to the dialog component.
 ```
 openConfirmDialog(msg) {
     return this.dialog.open(DialogComponent, {
@@ -51,7 +51,7 @@ openConfirmDialog(msg) {
   }
   ```
   
-2)To access the data in your dialog component, you have to use the MAT_DIALOG_DATA injection token:
+2)To access the data in your dialog component, you have to use the `MAT_DIALOG_DATA` injection token:
 ```
 import { Component, OnInit, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material'
