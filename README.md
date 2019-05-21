@@ -1,4 +1,5 @@
 # ConfirmDialog
+![Screenshot (97)](https://user-images.githubusercontent.com/29365336/58116837-eab16900-7c1a-11e9-9376-406329739968.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
